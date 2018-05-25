@@ -1,0 +1,111 @@
+body {
+  background-color: #EFEFEF;
+  font-family: 'Roboto', sans-serif;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  height: 10rem;
+  width: 100%;
+  
+  background-color: #2B2B2B;
+  color: #f2f2f2;
+}
+
+.admin {
+  display: flex;
+  justify-content: flex-end;
+  width: 90%;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+
+.links-list {
+  display: flex;
+  padding: 0;
+}
+
+.links-list li {
+  margin-right: 2rem;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.links-list li:hover {
+  transform: scale(1.1);
+  transition: linear 0.3s;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+
+  width: 90%;
+}
+
+.cards {
+  /* display: grid;
+  grid-template-columns: repeat(4, 1fr); */
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 17rem;
+
+  -webkit-box-shadow: 10px 10px 53px -23px rgba(0,0,0,0.7);
+  -moz-box-shadow: 10px 10px 53px -23px rgba(0,0,0,0.7);
+  box-shadow: 10px 10px 53px -23px rgba(0,0,0,0.7);
+}
+
+.card-background {
+  width: 100%;
+  height: 9rem;
+}
+
+.deadmau5 {
+  background: url('./public/images/deadmau5.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.card-header {
+  display: flex;
+
+
+  margin: 0;
+  padding: 15px;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  color: #f2f2f2;
+}
+
+.card-header i {
+  font-size: 3rem;
+}
+
+.card-content {
+  margin: 0;
+  padding: 10px;
+  background-color: #fff;
+}
+
+
+
