@@ -92,6 +92,34 @@ main h1 {
   background: url('./public/images/deadmau5.jpg');
 }
 
+.future {
+  background: url('./public/images/future.jpg');
+}
+
+.adventureclub {
+  background: url('./public/images/adventureclub.jpg');
+}
+
+.machinegunkelly {
+  background: url('./public/images/machinegunkelly.jpg');
+}
+
+.tiesto {
+  background: url('./public/images/tiesto.jpg');
+}
+
+.savoy {
+  background: url('./public/images/savoy.jpg');
+}
+
+.fluxpavilion {
+  background: url('./public/images/fluxpavilion.jpg');
+}
+
+.guccimane {
+  background: url('./public/images/guccimane.jpg');
+}
+
 .card-background {
   width: 100%;
   flex: 1;
@@ -102,6 +130,8 @@ main h1 {
 
 .card-header {
   display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 
   margin: 0;
   padding: 15px;
@@ -115,6 +145,25 @@ main h1 {
   font-size: 3rem;
 }
 
+.views-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  color: #fff;
+}
+
+.views-box h5 {
+  margin: 0;
+  font-weight: 300;
+}
+
+.views-num {
+  margin: 2px;
+  font-size: 2.2em;
+  font-weight: 400;
+}
+
 .card-content {
   flex: 2;
 
@@ -123,6 +172,7 @@ main h1 {
 
   background-color: #fff;
   font-weight: 300;
+  font-size: 1.1rem;
 }
 
 .card-content h3 {
@@ -130,7 +180,7 @@ main h1 {
 }
 
 .date {
-  margin-top: 3px;
+  margin: 0.2em 0 0 0;
   color: #919191;
   font-size: 0.8em;
 }
@@ -138,6 +188,7 @@ main h1 {
 .link-box {
   display: flex;
   align-items: center;
+  margin: 1.6em 0 0 0;
   padding: 0.5em;
   height: 3em;
   background-color: #e5e5e5;
@@ -149,6 +200,25 @@ main h1 {
   font-size: 0.8em;
 }
 
+.card-content h5 {
+  margin: 2.5em 0 0 0;
+  font-weight: 400;
+  font-size: 0.7em;
+}
+
+.card-content h4 {
+  margin: 0.2em 0 0 0;
+  font-weight: 400;
+  font-size: 1em;
+}
+
+.number {
+  margin: 0.1em 0 0 0;
+  font-size: 2.2em;
+  font-weight: 400;
+  color: #2bd8ff;
+}
+
 @media screen and (max-width: 1000px) {
   .cards {
     /* justify-content: flex-start; */
@@ -157,6 +227,15 @@ main h1 {
 }
 
 @media screen and (max-width: 675px) {
+  .admin {
+    justify-content: center;
+  }
+  .links {
+    flex-direction: column;
+  }
+  .links-list {
+    order: 2;
+  }
   main {
     align-items: center;
   }
