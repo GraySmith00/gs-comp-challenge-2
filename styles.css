@@ -242,12 +242,12 @@ main h1 {
   .cards {
     grid-template-columns: 1fr;
     grid-gap: 1.5rem;
-    width: 60%;
+    width: 70%;
   }
 }
 
 @media screen and (max-width: 475px) {
   .cards {
-    width: 80%;
+    width: 95%;
   }
 }
