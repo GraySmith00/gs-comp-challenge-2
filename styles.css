@@ -29,6 +29,10 @@ body {
   color: #f2f2f2;
 }
 
+.page-header i {
+  margin-right: 0.2em;
+}
+
 .admin {
   display: flex;
   justify-content: flex-end;
@@ -40,6 +44,17 @@ body {
   justify-content: space-between;
   align-items: center;
   width: 95%;
+}
+
+.links a {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.links img {
+  width: 50%;
+  color: #fff;
 }
 
 .links-list {
@@ -226,6 +241,13 @@ main h1 {
   }
 }
 
+@media screen and (max-width: 865px) {
+  .links-list {
+    font-size: 0.8em;
+    width: 90%;
+  }
+}
+
 @media screen and (max-width: 675px) {
   .admin {
     justify-content: center;
@@ -233,8 +255,17 @@ main h1 {
   .links {
     flex-direction: column;
   }
+  .links a {
+    justify-content: center;
+  }
   .links-list {
     order: 2;
+    justify-content: center;
+
+    margin-top: 1.8em;
+    width: 100%;
+
+    font-size: 1em;
   }
   main {
     align-items: center;
@@ -247,6 +278,9 @@ main h1 {
 }
 
 @media screen and (max-width: 475px) {
+  .links-list {
+    font-size: 0.7em;
+  }
   .cards {
     width: 95%;
   }
