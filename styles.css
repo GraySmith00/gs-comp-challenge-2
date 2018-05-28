@@ -31,12 +31,14 @@ body {
 
 .page-header i {
   margin-right: 0.2em;
+  color: #2bd8ff;
 }
 
 .admin {
   display: flex;
   justify-content: flex-end;
   width: 95%;
+  cursor: pointer;
 }
 
 .links {
@@ -53,8 +55,7 @@ body {
 }
 
 .links img {
-  width: 50%;
-  color: #fff;
+  width: 55%;
 }
 
 .links-list {
@@ -98,9 +99,12 @@ main h1 {
   height: 30em;
 
   background-color: #fff;
-  -webkit-box-shadow: 10px 10px 53px -23px rgba(0, 0, 0, 0.7);
+  -webkit-box-shadow: 10px 10px 30px -13px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 30px -13px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 30px -13px rgba(0, 0, 0, 0.75);
+  /* -webkit-box-shadow: 10px 10px 53px -23px rgba(0, 0, 0, 0.7);
   -moz-box-shadow: 10px 10px 53px -23px rgba(0, 0, 0, 0.7);
-  box-shadow: 10px 10px 53px -23px rgba(0, 0, 0, 0.7);
+  box-shadow: 10px 10px 53px -23px rgba(0, 0, 0, 0.7); */
 }
 
 .deadmau5 {
@@ -157,7 +161,8 @@ main h1 {
 }
 
 .card-header i {
-  font-size: 3rem;
+  font-size: 3.5rem;
+  cursor: pointer;
 }
 
 .views-box {
