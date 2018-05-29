@@ -177,9 +177,19 @@ main h1 {
   color: #f2f2f2;
 }
 
+.card-header a {
+  color: #f2f2f2;
+  text-decoration: none;
+}
+
 .card-header i {
   font-size: 3.5rem;
   cursor: pointer;
+}
+
+.card-header i:hover {
+  transform: scale(1.1);
+  transition: ease-in-out 0.2s;
 }
 
 .views-box {
